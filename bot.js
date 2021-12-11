@@ -1,10 +1,8 @@
-- 👋 Hi, I’m @ZoiLisT
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+const config = require("./config.json");
+const db = require('quick.db');
+const fs = require("fs");
+const monent = reqiure('monent');
+require('monent-duration-format');
+const prefix = config.Prefix;
 
-<!---
-ZoiLisT/ZoiLisT is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+client.commands = new Discord.Collection();
